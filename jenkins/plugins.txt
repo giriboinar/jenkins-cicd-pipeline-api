@@ -1,0 +1,10 @@
+# Install with jenkins-plugin-cli --plugin-file plugins.txt inside the
+# Jenkins container. Versions are resolved by the Plugin Manager so the
+# set stays compatible with the pinned Jenkins LTS image above.
+workflow-aggregator
+git
+docker-workflow
+kubernetes
+credentials
+junit
+warnings-ng
